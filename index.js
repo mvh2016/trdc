@@ -16,7 +16,7 @@ client.on('message', message => {
             .setDescription('Gives you a list of commands that I accept!')
             .addField('`/btcheck`', 'Puts out the basic training event check message.', false)
             .addField('`/stcheck`', 'Puts out the scenario training event check message.', false)
-            .addField('`/btcheck`', 'Puts out the discipline training event check message.', false)
+            .addField('`/dtcheck`', 'Puts out the discipline training event check message.', false)
             .addField('`/btstart <time starting>`', 'Announces a basic training that is starting! Make sure to provide the starting time and timezone. \ni.e. /btstart 18:00 GMT', false)
             .addField('`/ststart <time starting>`', 'Announces a scenarios training that is starting! Make sure to provide the starting time and timezone. \ni.e. /ststart 18:00 GMT', false)
             .addField('`/dtstart <time starting>`', 'Announces a discipline training that is starting! Make sure to provide the starting time and timezone. \ni.e. /dtstart 18:00 GMT', false)
